@@ -15,3 +15,13 @@ float hitungLuas(float d1, float d2) {
 void output(float luas) {
     cout << "Luas belah ketupat adalah: " << luas << endl;
 }
+
+int main() {
+    float d1, d2, luas;
+
+    input(d1, d2);              
+    luas = hitungLuas(d1, d2);  
+    output(luas);               
+
+    return 0;
+}
